@@ -1,16 +1,15 @@
 {
-    "nombre": "Eduardo Mendez",
-    "edad": 30,
-    "ocupación": "Desarrollador Web",
-    "ubicación": "Barranquilla, Colombia",
-    "hobbies": [
-        "Leer",
-        "Hacer ejercicio",
-        "Escuchar musica"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/edmedev/edmedev.github.io/"
-    },
-    "homepage": "https://edmedev.github.io"
+  "name": "eduardomendez",
+  "version": "1.0.0",
+  "description": "Mi perfil perfil personal",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eduardo Mendez",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.2.1"
+  }
 }
