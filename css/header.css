@@ -1,0 +1,60 @@
+/* Estos son los estilos del header */
+
+.header {
+    width: 100%;
+    font-family: var(--raleway);
+    background-color: var(--azul-navy); /* Color de fondo del header */
+    color: var(--blanco);
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logoContainer {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 18.78px;
+}
+
+.navegacion__bloqueLista {
+    display: none;
+}
+
+.navegacion__bloqueLista--lista {
+    text-align: center;
+}
+
+.icono-menu__svg {
+    width: 32px;
+    color: var(--blanco);
+}
+
+/* Estilos para tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header__container {
+        padding: 1rem 2rem;
+    }
+}
+
+/* Estilos para computadores de escritorio y laptop */
+@media screen and (min-width: 1024px) {
+    .header__container {
+        padding: 2rem 2rem;
+    }
+
+    .navegacion__bloqueLista {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #icono-menu {
+        display: none;
+    }
+}
+

@@ -1,0 +1,98 @@
+.presentacion {
+    width: 100%;
+    height: auto;
+    background: var(--azul-navy); /* Color de fondo de la seccion llamada a la acción */
+    color: var(--blanco);
+    border-top: 2px solid var(--blanco-hueso);
+}
+
+.presentacion-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+    padding: 1rem;
+}
+
+.imagen-presentacion {
+    margin: auto;
+}
+
+.foto-presentacion {
+    width: 6.125rem;
+    height: 6.125rem;
+    border-radius: 98px;
+    background: url(../src/img/foto-eduardo.jpeg) lightgray 50% / cover no-repeat;
+}
+
+.contenido-presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.bloque-sociales {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+
+/* Estilos para tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .presentacion-container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        align-self: stretch;
+        padding: 2rem;
+    }
+
+    .foto-presentacion {
+        width: 9.125rem;
+        height: 9.125rem;
+        border-radius: 146px;
+        background: url(../src/img/foto-eduardo.jpeg) lightgray 50% / cover no-repeat;
+    }
+
+    .contenido-presentacion {
+        gap: 0.5rem;
+    }
+
+    .bloque-sociales {
+        gap: 2rem;
+    }
+}
+
+/* Estilos para computadores de escritorio y laptop */
+@media screen and (min-width: 1024px) {
+    .presentacion-container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .foto-presentacion {
+        width: 23rem;
+        height: 23rem;
+        flex-shrink: 0;
+        border-radius: 368px;
+        background: url(../src/img/foto-eduardo.jpeg) lightgray 50% / cover no-repeat;
+    }
+
+    .contenido-presentacion {
+        gap: 1.5rem;
+    }
+
+    .bloque-sociales {
+        gap: 2rem;
+    }
+}
+
