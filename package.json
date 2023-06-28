@@ -1,7 +1,7 @@
 {
   "name": "eduardomendez",
   "version": "1.0.0",
-  "description": "Mi perfil perfil personal",
+  "description": "Mi perfil personal",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

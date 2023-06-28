@@ -23,7 +23,7 @@
 }
 
 .container {
-    min-width: 320px;
+    width: auto;
     max-width: 1136px;
     margin: auto;
 }

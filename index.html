@@ -13,133 +13,197 @@
         <link rel="stylesheet" href="./css/presentacion.css">
         <link rel="stylesheet" href="./css/sobre-mi.css">
         <link rel="stylesheet" href="./css/skills.css">
+        <link rel="stylesheet" href="./css/hobbies.css">
+        <link rel="stylesheet" href="./css/formacion.css">
     </head>
 
     <body>
         <header class="header">
-            <div class="container">
-                <div class="header__container">
-                    <div class="logoContainer">
-                        <a href="#home">
-                            <h1>Eduardo Mendez</h1>
-                        </a>
-                    </div>
+            <div class="header__container container">
+                <div class="logoContainer">
+                    <a href="#home">
+                        <h1>Eduardo Mendez</h1>
+                    </a>
+                </div>
 
-                    <nav class="navegacion">
-                        <ul class="navegacion__bloqueLista">
-                            <li class="navegacion__bloqueLista--lista">
-                                <a href="#" class="enlace-nav">Sobre mí</a>
-                            </li>
+                <nav class="navegacion">
+                    <ul class="navegacion__bloqueLista">
+                        <li class="navegacion__bloqueLista--lista">
+                            <a href="#sobre-mi" class="enlace-nav">Sobre mí</a>
+                        </li>
 
-                            <li class="navegacion__bloqueLista--lista">
-                                <a href="#" class="enlace-nav">Skills</a>
-                            </li>
+                        <li class="navegacion__bloqueLista--lista">
+                            <a href="#skills" class="enlace-nav">Skills</a>
+                        </li>
 
-                            <li class="navegacion__bloqueLista--lista">
-                                <a href="#" class="enlace-nav">Hobbies</a>
-                            </li>
+                        <li class="navegacion__bloqueLista--lista">
+                            <a href="#hobbies" class="enlace-nav">Hobbies</a>
+                        </li>
 
-                            <li class="navegacion__bloqueLista--lista">
-                                <a href="#" class="enlace-nav">Formación</a>
-                            </li>
+                        <li class="navegacion__bloqueLista--lista">
+                            <a href="#formacion" class="enlace-nav">Formación</a>
+                        </li>
 
-                            <li class="navegacion__bloqueLista--lista">
-                                <a href="#" class="enlace-nav">Proyectos</a>
-                            </li>
+                        <li class="navegacion__bloqueLista--lista">
+                            <a href="#" class="enlace-nav">Proyectos</a>
+                        </li>
 
-                            <li class="navegacion__bloqueLista--lista">
-                                <a href="#" class="enlace-nav">Contacto</a>
-                            </li>
-                        </ul>
-                    </nav>
+                        <li class="navegacion__bloqueLista--lista">
+                            <a href="#" class="enlace-nav">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
 
-                    <div id="icono-menu">
-                        <img src="./src/iconos/bars-solid.svg" alt="icono menu" class="icono-menu__iconoMovil">
-                    </div>
+                <div id="icono-menu">
+                    <img src="./src/iconos/bars-solid.svg" alt="icono menu" class="icono-menu__iconoMovil">
                 </div>
             </div>
         </header>
 
         <main class="main-container" id="home">
-            <!-- Sección llamada a la acción -->
+            <!-- Sección Llamada a la Acción -->
             <section class="presentacion">
-                <div class="container">
-                    <div class="presentacion-container">
-                        <div class="imagen-presentacion">
-                            <div class="foto-presentacion"></div>
-                        </div>
+                <div class="presentacion__container container">
+                    <div class="presentacion__imagen">
+                        <div class="imagen-sobre-mi"></div>
+                    </div>
 
-                        <div class="contenido-presentacion">
-                            <h1 class="titulo-principal">Hola, mi nombre es Eduardo Mendez y construyo paginas web</h1>
-                            <p class="parrafo-principal">Soy formado en Tecnología en Gestion de Mercadeo y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
-                            <div class="bloque-sociales">
-                                <a class="enlace-social" href="#">
-                                    <img src="./src/iconos/github.svg" alt="Icono de Github">
-                                </a>
-                                <a class="enlace-social" href="#">
-                                    <img src="./src/iconos/linkedin.svg" alt="Icono de Linkedin">
-                                </a>
-                                <a class="enlace-social" href="#">
-                                    <img src="./src/iconos/instagram.svg" alt="Icono de Instagram">
-                                </a>
-                                <a class="enlace-social" href="#">
-                                    <img src="./src/iconos/cv.svg" alt="Icono de CV">
-                                </a>
-                            </div>
+                    <div class="presentacion__contenido">
+                        <h1 class="titulo-principal">Hola, mi nombre es Eduardo Mendez y construyo paginas web</h1>
+                        <p class="parrafo-principal">Soy formado en Tecnología en Gestión de Mercadeo y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
+                        <div class="bloqueSociales">
+                            <a class="bloqueSociales__enlace" href="https://github.com/edmedev/" target="_blank">
+                                <img src="./src/iconos/github.svg" alt="Icono de Github">
+                            </a>
+
+                            <a class="bloqueSociales__enlace" href="https://www.linkedin.com/in/eduardomendezv/" target="_blank">
+                                <img src="./src/iconos/linkedin.svg" alt="Icono de Linkedin">
+                            </a>
+
+                            <a class="bloqueSociales__enlace" href="https://www.instagram.com/eduardo_mendez_v/" target="_blank">
+                                <img src="./src/iconos/instagram.svg" alt="Icono de Instagram">
+                            </a>
+
+                            <a class="bloqueSociales__enlace" href="./src/doc/cv.pdf" target="_blank">
+                                <img src="./src/iconos/cv.svg" alt="Icono de CV">
+                            </a>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- Sección Acerca de Mí -->
-            <section class="sobre-mi">
-                <div class="container">
-                    <div class="sobreMi-container">
-                        <h2 class="titulo-secundario">Sobre mí</h2>
-                        <p class="parrafo">Mi nombre es Eduardo, nací y crecí en Barranquilla. En el año 2020 salió un programa con Endeavor y la Alcaldía de Barranquilla donde ofrecieron una beca para estudiar desarrollo web en Platzi, en el cual destacaron que era una nueva profesión en la industria de la tecnología que tendría mucha demanda en mercado laboral y me llamo la atención y me inscribí para estudiar.</p>
-                        <p class="parrafo">Desde que inicié mi formación como desarrollador web, me ha encantado completamente el inmerso en los diversos lenguajes de programación, entre ellos HTML, CSS y JavaScript. Estos conocimientos me han permitido dar vida a mis primeras páginas web, experimentando con diferentes diseños y funcionalidades. Cada nuevo proyecto se convierte en un apasionante desafío que alimenta mi sed de aprendizaje y me impulsa a perfeccionar mis habilidades.</p>
-                    </div>
+            <section class="sobreMi" id="sobre-mi">
+                <div class="sobreMi__container container">
+                    <h2 class="titulo-secundario">Sobre mí</h2>
+                    <p class="parrafo">Mi nombre es Eduardo, nací y crecí en Barranquilla. En el año 2020 salió un programa con Endeavor y la Alcaldía de Barranquilla donde ofrecieron una beca para estudiar desarrollo web en Platzi, en el cual destacaron que era una nueva profesión en la industria de la tecnología que tendría mucha demanda en mercado laboral y me llamo la atención y me inscribí para estudiar.</p>
+                    <p class="parrafo">Desde que inicié mi formación como desarrollador web, me ha encantado completamente el inmerso en los diversos lenguajes de programación, entre ellos HTML, CSS y JavaScript. Estos conocimientos me han permitido dar vida a mis primeras páginas web, experimentando con diferentes diseños y funcionalidades. Cada nuevo proyecto se convierte en un apasionante desafío que alimenta mi sed de aprendizaje y me impulsa a perfeccionar mis habilidades.</p>
                 </div>
             </section>
 
             <!-- Sección Skills -->
-            <section class="skills">
-                <div class="container">
-                    <div class="skills-container">
-                        <h2 class="titulo-secundario">Skills</h2>
+            <section class="skills" id="skills">
+                <div class="skills__container container">
+                    <h2 class="titulo-secundario">Skills</h2>
 
-                        <ul class="bloqueLista">
-                            <li class="bloqueLista__lista">
-                                <img src="./src/skills/visual-studio.png" alt="Icono de Visual Studio Code">
-                                <p class="parrafo-negrita">VSCode</p>
-                            </li>
+                    <ul class="bloqueLista">
+                        <li class="bloqueLista__lista">
+                            <img src="./src/iconos/skills/vscode.svg" alt="Icono de Visual Studio Code">
+                            <p class="parrafo-negrita">VSCode</p>
+                        </li>
 
-                            <li class="bloqueLista__lista">
-                                <img src="./src/skills/git.png" alt="Icono de Git">
-                                <p class="parrafo-negrita">Git</p>
-                            </li>
+                        <li class="bloqueLista__lista">
+                            <img src="./src/iconos/skills/git.svg" alt="Icono de Git">
+                            <p class="parrafo-negrita">Git</p>
+                        </li>
 
-                            <li class="bloqueLista__lista">
-                                <img src="./src/skills/html-5.png" alt="Icono de HTML">
-                                <p class="parrafo-negrita">HTML 5</p>
-                            </li>
+                        <li class="bloqueLista__lista">
+                            <img src="./src/iconos/skills/html5.svg" alt="Icono de HTML">
+                            <p class="parrafo-negrita">HTML 5</p>
+                        </li>
 
-                            <li class="bloqueLista__lista">
-                                <img src="./src/skills/css.png" alt="Icono de CSS">
-                                <p class="parrafo-negrita">CSS 3</p>
-                            </li>
+                        <li class="bloqueLista__lista">
+                            <img src="./src/iconos/skills/css3.svg" alt="Icono de CSS">
+                            <p class="parrafo-negrita">CSS 3</p>
+                        </li>
 
-                            <li class="bloqueLista__lista">
-                                <img src="./src/skills/bootstrap.png" alt="Icono de Bootstrap">
-                                <p class="parrafo-negrita">Bootstrap</p>
-                            </li>
+                        <li class="bloqueLista__lista">
+                            <img src="./src/iconos/skills/bootstrap.svg" alt="Icono de Bootstrap">
+                            <p class="parrafo-negrita">Bootstrap</p>
+                        </li>
 
-                            <li class="bloqueLista__lista">
-                                <img src="./src/skills/js.png" alt="Icono de JavaScript">
-                                <p class="parrafo-negrita">JavaScript</p>
-                            </li>
-                        </ul>
-                    </div>
+                        <li class="bloqueLista__lista">
+                            <img src="./src/iconos/skills/js.svg" alt="Icono de JavaScript">
+                            <p class="parrafo-negrita">JavaScript</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Sección Hobbies -->
+            <section class="hobbies" id="hobbies">
+                <div class="hobbies__container container">
+                    <h2 class="titulo-secundario">Hobbies</h2>
+
+                    <ul class="bloqueLista">
+                        <li class="bloqueLista__lista">
+                            <img src="./src/iconos/hobbies/leer.svg" alt="Icono de leer">
+                            <p class="parrafo-negrita">Leer</p>
+                        </li>
+
+                        <li class="bloqueLista__lista">
+                            <img src="./src/iconos/hobbies/videojuegos.svg" alt="Icono de videojuegos">
+                            <p class="parrafo-negrita">Jugar videojuegos</p>
+                        </li>
+
+                        <li class="bloqueLista__lista">
+                            <img src="./src/iconos/hobbies/musica.svg" alt="Icono de música">
+                            <p class="parrafo-negrita">Oír música</p>
+                        </li>
+
+                        <li class="bloqueLista__lista">
+                            <img src="./src/iconos/hobbies/tv.svg" alt="Icono de tv">
+                            <p class="parrafo-negrita">Ver series</p>
+                        </li>
+
+                        <li class="bloqueLista__lista">
+                            <img src="./src/iconos/hobbies/cocinar.svg" alt="Icono de cocinar">
+                            <p class="parrafo-negrita">Cocinar</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Sección Formación Académica -->
+            <section class="formacion" id="formacion">
+                <div class="formacion__container container">
+                    <h2 class="titulo-secundario">Formación Académica</h2>
+                    
+                    <ul class="bloqueFormacion">
+                        <li class="bloqueFormacion__lista">
+                            <div class="bloqueFormacion__item">
+                                <img src="./src/img/none.png" alt="Logo del Politécnico Grancolombiano">
+                            </div>
+                            <h3 class="titulo-terciario">Tecnólogo en Gestión de Mercadeo</h3>
+                            <p class="parrafo">2021 – Politécnico Grancolombiano</p>
+                        </li>
+
+                        <li class="bloqueFormacion__lista">
+                            <div class="bloqueFormacion__item">
+                                <img src="./src/img/none.png" alt="Logo de Platzi">
+                            </div>
+                            <h3 class="titulo-terciario">Formación en Desarrollo Web</h3>
+                            <p class="parrafo">2022 – Platzi</p>
+                        </li>
+
+                        <li class="bloqueFormacion__lista">
+                            <div class="bloqueFormacion__item">
+                                <img src="./src/img/none.png" alt="Logo de Alura">
+                            </div>
+                            <h3 class="titulo-terciario">Formación en Desarrollo Web</h3>
+                            <p class="parrafo">En curso – Alura Latam</p>
+                        </li>
+                    </ul>
                 </div>
             </section>
         </main>

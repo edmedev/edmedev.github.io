@@ -6,7 +6,7 @@
     border-top: 2px solid var(--blanco-hueso);
 }
 
-.presentacion-container {
+.presentacion__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,18 +16,18 @@
     padding: 1rem;
 }
 
-.imagen-presentacion {
+.presentacion__imagen {
     margin: auto;
 }
 
-.foto-presentacion {
+.imagen-sobre-mi {
     width: 6.125rem;
     height: 6.125rem;
     border-radius: 98px;
     background: url(../src/img/foto-eduardo.jpeg) lightgray 50% / cover no-repeat;
 }
 
-.contenido-presentacion {
+.presentacion__contenido {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -35,7 +35,7 @@
     align-self: stretch;
 }
 
-.bloque-sociales {
+.bloqueSociales {
     display: flex;
     align-items: flex-start;
     gap: 0.5rem;
@@ -44,7 +44,7 @@
 
 /* Estilos para tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .presentacion-container {
+    .presentacion__container {
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
@@ -53,25 +53,25 @@
         padding: 2rem;
     }
 
-    .foto-presentacion {
+    .imagen-sobre-mi {
         width: 9.125rem;
         height: 9.125rem;
         border-radius: 146px;
         background: url(../src/img/foto-eduardo.jpeg) lightgray 50% / cover no-repeat;
     }
 
-    .contenido-presentacion {
+    .presentacion__contenido {
         gap: 0.5rem;
     }
 
-    .bloque-sociales {
+    .bloqueSociales {
         gap: 2rem;
     }
 }
 
 /* Estilos para computadores de escritorio y laptop */
 @media screen and (min-width: 1024px) {
-    .presentacion-container {
+    .presentacion__container {
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
@@ -79,7 +79,7 @@
         padding: 2rem;
     }
 
-    .foto-presentacion {
+    .imagen-sobre-mi {
         width: 23rem;
         height: 23rem;
         flex-shrink: 0;
@@ -87,11 +87,11 @@
         background: url(../src/img/foto-eduardo.jpeg) lightgray 50% / cover no-repeat;
     }
 
-    .contenido-presentacion {
+    .presentacion__contenido {
         gap: 1.5rem;
     }
 
-    .bloque-sociales {
+    .bloqueSociales {
         gap: 2rem;
     }
 }

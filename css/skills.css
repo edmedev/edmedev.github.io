@@ -5,7 +5,7 @@
     color: var(--preto-100);
 }
 
-.skills-container {
+.skills__container {
     width: auto;
     height: auto;
     display: flex;
@@ -40,17 +40,17 @@
 
 /* Estilos para tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .skills-container {
+    .skills__container {
         padding: 2rem;
     }
 }
 
 /* Estilos para computadores de escritorio y laptop */
 @media screen and (min-width: 1024px) {
-    .skills-container {
+    .skills__container {
         padding: 2rem;
     }
-    
+
     .bloqueLista__lista {
         flex: 1 0 0;
     }
