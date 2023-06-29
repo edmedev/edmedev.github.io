@@ -1,7 +1,7 @@
 {
-  "name": "eduardomendez",
+  "name": "edmedev",
   "version": "1.0.0",
-  "description": "Mi perfil personal",
+  "description": "Mi portafolio de proyectos",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
