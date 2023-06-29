@@ -43,7 +43,7 @@
     align-self: stretch;
 }
 
-.bloqueFormacion__img {
+.bloqueFormacion__item--img {
     width: 5.25rem;
 }
 
@@ -77,7 +77,7 @@
         height: 17.875rem;
     }
 
-    .bloqueFormacion__img {
+    .bloqueFormacion__item--img {
         width: 12rem;
     }
 }
