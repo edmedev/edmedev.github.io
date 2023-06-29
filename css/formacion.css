@@ -16,3 +16,69 @@
     align-self: stretch;
 }
 
+.bloqueFormacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.bloqueFormacion__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.bloqueFormacion__item {
+    background: var(--blanco);
+    display: flex;
+    height: 7.375rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+
+.bloqueFormacion__img {
+    width: 5.25rem;
+}
+
+
+/* Estilos para tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .bloqueFormacion {
+        flex-direction: row;
+    }
+
+    .bloqueFormacion__lista {
+        flex: 1 0 0;
+    }
+}
+
+/* Estilos para computadores de escritorio y laptop */
+@media screen and (min-width: 1024px) {
+    .formacion__container {
+        padding: 5.12rem 2rem;
+    }
+
+    .bloqueFormacion {
+        flex-direction: row;
+    }
+
+    .bloqueFormacion__lista {
+        flex: 1 0 0;
+    }
+
+    .bloqueFormacion__item {
+        height: 17.875rem;
+    }
+
+    .bloqueFormacion__img {
+        width: 12rem;
+    }
+}
+
