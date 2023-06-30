@@ -1,7 +1,7 @@
 .skills {
     width: 100%;
     height: auto;
-    background: var(--blanco-hueso); /* Color de fondo de la seccion llamada a la acción */
+    background: var(--gris-claro); /* Color de fondo de la seccion llamada a la acción */
     color: var(--preto-100);
 }
 

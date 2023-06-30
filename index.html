@@ -15,12 +15,13 @@
         <link rel="stylesheet" href="./css/skills.css">
         <link rel="stylesheet" href="./css/hobbies.css">
         <link rel="stylesheet" href="./css/formacion.css">
+        <link rel="stylesheet" href="./css/proyectos.css">
     </head>
 
     <body>
-        <header class="header">
-            <div class="header__container container">
-                <div class="logoContainer">
+        <header class="encabezado">
+            <div class="encabezado__container container">
+                <div class="encabezado__logo">
                     <a href="#home">
                         <h1>Eduardo Mendez</h1>
                     </a>
@@ -45,7 +46,7 @@
                         </li>
 
                         <li class="navegacion__bloqueLista--lista">
-                            <a href="#" class="enlace-nav">Proyectos</a>
+                            <a href="#proyectos" class="enlace-nav">Proyectos</a>
                         </li>
 
                         <li class="navegacion__bloqueLista--lista">
@@ -177,7 +178,7 @@
             <!-- Sección Formación Académica -->
             <section class="formacion" id="formacion">
                 <div class="formacion__container container">
-                    <h2 class="titulo-secundario">Formación Académica</h2>
+                    <h2 class="titulo-secundario">Formación académica</h2>
                     
                     <ul class="bloqueFormacion">
                         <li class="bloqueFormacion__lista">
@@ -204,6 +205,54 @@
                             <p class="parrafo">En curso – Alura Latam</p>
                         </li>
                     </ul>
+                </div>
+            </section>
+
+            <!-- Sección Experiencia Profesional -->
+            <section class="proyectos" id="proyectos">
+                <div class="proyectos__container container">
+                    <h2 class="titulo-secundario">Experiencia profesional</h2>
+                    
+                    <div class="portafolio">
+                        <div class="portafolio__proyecto">
+                            <img src="./src/img/imgnofound.png" alt="Imagen del proyecto Encriptador de Texto">
+
+                            <div class="portafolio__item">
+                                <h3 class="titulo-terciario">Encriptador de texto</h3>
+                                <p class="parrafo">Challenge Oracle</p>
+                                <div class="bloqueBotones">
+                                    <button class="bloqueBotones__btnUno" type="button" onclick="repositorioEncriptador()">Repositorio</button>
+                                    <button class="bloqueBotones__btnDos" type="button" onclick="demoEncriptador()">Ver demo</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portafolio__proyecto">
+                            <img src="./src/img/imgnofound.png" alt="Imagen del proyecto Encriptador de Texto">
+
+                            <div class="portafolio__item">
+                                <h3 class="titulo-terciario">Edme Movies</h3>
+                                <p class="parrafo">Curso de API REST con Javascript - Platzi</p>
+                                <div class="bloqueBotones">
+                                    <button class="bloqueBotones__btnUno" type="button" onclick="repositorioEdmeMovies()">Repositorio</button>
+                                    <button class="bloqueBotones__btnDos" type="button" onclick="demoEdmeMovies()">Ver demo</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portafolio__proyecto">
+                            <img src="./src/img/imgnofound.png" alt="Imagen del proyecto Encriptador de Texto">
+
+                            <div class="portafolio__item">
+                                <h3 class="titulo-terciario">Calculadora de Figuras Geométricas</h3>
+                                <p class="parrafo">Curso Práctico de JavaScript - Platzi</p>
+                                <div class="bloqueBotones">
+                                    <button class="bloqueBotones__btnUno" type="button" onclick="repositorioFigurasGeometricas()">Repositorio</button>
+                                    <button class="bloqueBotones__btnDos" type="button" onclick="demoFigurasGeometricas()">Ver demo</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
