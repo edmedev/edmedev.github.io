@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="./css/hobbies.css">
         <link rel="stylesheet" href="./css/formacion.css">
         <link rel="stylesheet" href="./css/proyectos.css">
+        <link rel="stylesheet" href="./css/contacto.css">
     </head>
 
     <body>
@@ -50,7 +51,7 @@
                         </li>
 
                         <li class="navegacion__bloqueLista--lista">
-                            <a href="#" class="enlace-nav">Contacto</a>
+                            <a href="#contacto" class="enlace-nav">Contacto</a>
                         </li>
                     </ul>
                 </nav>
@@ -214,45 +215,86 @@
                     <h2 class="titulo-secundario">Experiencia profesional</h2>
                     
                     <div class="portafolio">
-                        <div class="portafolio__proyecto">
-                            <img src="./src/img/imgnofound.png" alt="Imagen del proyecto Encriptador de Texto">
+                        <div class="portafolio__proyecto encriptador">
+                            <div>
+                                <img src="./src/img/proyectos/encriptador.jpg" alt="Imagen del proyecto Encriptador de Texto" class="portafolio__imagen">
+                            </div>
 
-                            <div class="portafolio__item">
+                            <div class="portafolio__contenido">
                                 <h3 class="titulo-terciario">Encriptador de texto</h3>
                                 <p class="parrafo">Challenge Oracle</p>
-                                <div class="bloqueBotones">
-                                    <button class="bloqueBotones__btnUno" type="button" onclick="repositorioEncriptador()">Repositorio</button>
-                                    <button class="bloqueBotones__btnDos" type="button" onclick="demoEncriptador()">Ver demo</button>
+                                <div class="botones">
+                                    <button class="botones__btnRepo" type="button" onclick="repositorioEncriptador()">Repositorio</button>
+                                    <button class="botones__btnDemo" type="button" onclick="demoEncriptador()">Ver demo</button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="portafolio__proyecto">
-                            <img src="./src/img/imgnofound.png" alt="Imagen del proyecto Encriptador de Texto">
+                        <div class="portafolio__proyecto edmeMovies">
+                            <div>
+                                <img src="./src/img/proyectos/edme_movies.jpg" alt="Imagen del proyecto Edme Movies" class="portafolio__imagen">
+                            </div>
 
-                            <div class="portafolio__item">
+                            <div class="portafolio__contenido">
                                 <h3 class="titulo-terciario">Edme Movies</h3>
                                 <p class="parrafo">Curso de API REST con Javascript - Platzi</p>
-                                <div class="bloqueBotones">
-                                    <button class="bloqueBotones__btnUno" type="button" onclick="repositorioEdmeMovies()">Repositorio</button>
-                                    <button class="bloqueBotones__btnDos" type="button" onclick="demoEdmeMovies()">Ver demo</button>
+                                <div class="botones">
+                                    <button class="botones__btnRepo" type="button" onclick="repositorioEdmeMovies()">Repositorio</button>
+                                    <button class="botones__btnDemo" type="button" onclick="demoEdmeMovies()">Ver demo</button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="portafolio__proyecto">
-                            <img src="./src/img/imgnofound.png" alt="Imagen del proyecto Encriptador de Texto">
+                        <div class="portafolio__proyecto figurasGeometricas">
+                            <div>
+                                <img src="./src/img/proyectos/figuras_geometricas.jpg" alt="Imagen del proyecto Calculadora de Figuras Geométricas" class="portafolio__imagen">
+                            </div>
 
-                            <div class="portafolio__item">
+                            <div class="portafolio__contenido">
                                 <h3 class="titulo-terciario">Calculadora de Figuras Geométricas</h3>
                                 <p class="parrafo">Curso Práctico de JavaScript - Platzi</p>
-                                <div class="bloqueBotones">
-                                    <button class="bloqueBotones__btnUno" type="button" onclick="repositorioFigurasGeometricas()">Repositorio</button>
-                                    <button class="bloqueBotones__btnDos" type="button" onclick="demoFigurasGeometricas()">Ver demo</button>
+                                <div class="botones">
+                                    <button class="botones__btnRepo" type="button" onclick="repositorioFigurasGeometricas()">Repositorio</button>
+                                    <button class="botones__btnDemo" type="button" onclick="demoFigurasGeometricas()">Ver demo</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <!-- Sección Contacto -->
+            <section class="contacto" id="contacto">
+                <div class="contacto__container container">
+                    <div class="contacto__seccionDereha">
+                        <div class="contacto__texto">
+                            <h2 class="titulo-secundario">Contacto</h2>
+                            <p class="parrafo-secundario">¿Quieres contactarme?</p>
+                            <p class="parrafo-secundario">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                        </div>
+
+                        <form class="contacto__formulario" action="">
+                            <div class="areaTexto">
+                                <label>Nombre</label>
+                                <input type="text" name="nombre" placeholder="Escribe tu nombre">
+                            </div>
+
+                            <div class="areaTexto">
+                                <label>E-mail</label>
+                                <input type="email" name="email" placeholder="Ej: tunombre@mail.com">
+                            </div>
+
+                            <div class="areaTexto">
+                                <input type="text" name="asunto" placeholder="Asunto">
+                            </div>
+
+                            <div class="areaTexto">
+                                <textarea name="mensaje" rows="4" placeholder="Mensaje"></textarea>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="contacto__seccionIzquierda"></div>
                 </div>
             </section>
         </main>

@@ -1,8 +1,8 @@
 .proyectos {
     width: 100%;
     height: auto;
-    background: var(--turquesa-palido); /* Color de fondo de la seccion llamada a la acción */
-    color: var(--gris-oscuro);
+    background: var(--gris-claro); /* Color de fondo de la seccion llamada a la acción */
+    color: var(--preto-100);
 }
 
 .proyectos__container {
@@ -25,12 +25,14 @@
 .portafolio__proyecto {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1rem;
-    align-self: stretch;
 }
 
-.portafolio__item {
+.portafolio__imagen {
+    width: 100%;
+}
+
+.portafolio__contenido {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -38,14 +40,14 @@
     align-self: stretch;
 }
 
-.bloqueBotones {
+.botones {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
     align-self: stretch;
 }
 
-.bloqueBotones__btnUno {
+.botones__btnRepo {
     display: flex;
     padding: 0.75rem 1rem;
     justify-content: center;
@@ -55,7 +57,7 @@
     color: var(--azul-100);
 }
 
-.bloqueBotones__btnDos {
+.botones__btnDemo {
     display: flex;
     padding: 0.75rem 1rem;
     justify-content: center;
@@ -64,5 +66,37 @@
     background: var(--azul-100);
     border: none;
     color: var(--blanco);
+}
+
+
+/* Estilos para computadores de escritorio y laptop */
+@media screen and (min-width: 1024px) {
+    /*.portafolio__proyecto {
+        flex-direction: row;
+        align-items: center;
+    }*/
+    
+    .proyectos__container {
+        gap: 2rem;
+    }
+    .encriptador {
+        flex-direction: row;
+    }
+
+    .edmeMovies {
+        flex-direction: row-reverse;
+    }
+
+    .figurasGeometricas {
+        flex-direction: row;
+    }
+
+    .portafolio__imagen {
+        width: 47rem;
+    }
+
+    .portafolio__contenido {
+        justify-content: center;
+    }
 }
 

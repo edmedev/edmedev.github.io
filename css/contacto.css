@@ -1,0 +1,16 @@
+.contacto {
+    width: 100%;
+    height: auto;
+    background: var(--azul-10); /* Color de fondo de la seccion llamada a la acción */
+    color: var(--preto-100);
+}
+
+.contacto__container {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+
