@@ -1,7 +1,7 @@
-//Función para hacer clic al menu movil y desplegar la navegación:
+//Función para hacer clic al menu movil y desplegar el menu de navegación:
 
 var iconoMenu = document.getElementById("icono-menu");
-var menusNavegacion = document.getElementsByClassName("navegacion__bloqueLista");
+var menusNavegacion = document.getElementsByClassName("navegacion");
 
 iconoMenu.addEventListener("click", function() {
   for (var i = 0; i < menusNavegacion.length; i++) {

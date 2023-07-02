@@ -21,8 +21,14 @@
     line-height: 18.78px;
 }
 
-.navegacion__bloqueLista {
+.navegacion {
     display: none;
+}
+
+.navegacion__bloqueLista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .navegacion__bloqueLista--lista {
@@ -47,8 +53,13 @@
         padding: 2rem;
     }
 
+    .navegacion {
+        display: block;
+    }
+
     .navegacion__bloqueLista {
         display: flex;
+        flex-direction: row;
         align-items: center;
         gap: 2rem;
     }
