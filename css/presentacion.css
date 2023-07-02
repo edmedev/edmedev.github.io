@@ -1,3 +1,5 @@
+/* Estos son los estilos de la sección llamada a la acción */
+
 .presentacion {
     width: 100%;
     height: auto;
@@ -43,7 +45,7 @@
 
 
 /* Estilos para tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
     .presentacion__container {
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -57,7 +59,6 @@
         width: 9.125rem;
         height: 9.125rem;
         border-radius: 146px;
-        background: url(../src/img/foto-eduardo.jpeg) lightgray 50% / cover no-repeat;
     }
 
     .presentacion__contenido {
@@ -71,28 +72,15 @@
 
 /* Estilos para computadores de escritorio y laptop */
 @media screen and (min-width: 1024px) {
-    .presentacion__container {
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-        gap: 2rem;
-        padding: 2rem;
-    }
-
     .imagen-sobre-mi {
         width: 23rem;
         height: 23rem;
-        flex-shrink: 0;
         border-radius: 368px;
-        background: url(../src/img/foto-eduardo.jpeg) lightgray 50% / cover no-repeat;
+        flex-shrink: 0;
     }
 
     .presentacion__contenido {
         gap: 1.5rem;
-    }
-
-    .bloqueSociales {
-        gap: 2rem;
     }
 }
 

@@ -1,7 +1,9 @@
+/* Estos son los estilos de la sección proyectos */
+
 .proyectos {
     width: 100%;
     height: auto;
-    background: var(--gris-claro); /* Color de fondo de la seccion llamada a la acción */
+    background: var(--gris-claro);
     color: var(--preto-100);
 }
 
@@ -71,14 +73,10 @@
 
 /* Estilos para computadores de escritorio y laptop */
 @media screen and (min-width: 1024px) {
-    /*.portafolio__proyecto {
-        flex-direction: row;
-        align-items: center;
-    }*/
-    
     .proyectos__container {
         gap: 2rem;
     }
+    
     .encriptador {
         flex-direction: row;
     }

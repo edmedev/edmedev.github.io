@@ -1,7 +1,9 @@
+/* Estos son los estilos de la sección formación */
+
 .formacion {
     width: 100%;
     height: auto;
-    background: var(--azul-10); /* Color de fondo de la seccion llamada a la acción */
+    background: var(--azul-10);
     color: var(--preto-100);
 }
 
@@ -49,7 +51,7 @@
 
 
 /* Estilos para tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
     .bloqueFormacion {
         flex-direction: row;
     }
@@ -63,14 +65,6 @@
 @media screen and (min-width: 1024px) {
     .formacion__container {
         padding: 5.12rem 2rem;
-    }
-
-    .bloqueFormacion {
-        flex-direction: row;
-    }
-
-    .bloqueFormacion__lista {
-        flex: 1 0 0;
     }
 
     .bloqueFormacion__item {

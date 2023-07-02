@@ -1,0 +1,108 @@
+/* Estos son los estilos del pie de página */
+
+.piePagina {
+    width: 100%;
+    height: auto;
+    background: var(--gris-oscuro); /* Color de fondo de la seccion llamada a la acción */
+    color: var(--blanco);
+}
+
+.piePagina__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.piePagina__principal {
+    width: 100%;
+    display: flex;
+    padding-top: 4rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+.piePagina__informacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.piePagina__enlaces {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.piePagina__contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.enlacesPie {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.piePagina__copyright {
+    width: 100%;
+    padding: 1.25rem 0;
+    border-top: 2px solid var(--gris-claro);
+    text-align: center;
+}
+
+
+/* Estilos para tablet */
+@media screen and (min-width: 768px) {
+    .piePagina__container {
+        gap: 4rem;
+    }
+
+    .piePagina__principal {
+        flex-direction: row;
+    }
+
+    .piePagina__informacion {
+        width: 33.33%;
+    }
+
+    .piePagina__enlaces {
+        width: 33.33%;
+    }
+
+    .piePagina__contacto {
+        width: 33.33%;
+    }
+}
+
+/* Estilos para computadores de escritorio y laptop */
+@media screen and (min-width: 1024px) {
+    .piePagina__container {
+        padding: 0 4rem;
+    }
+
+    .piePagina__principal {
+        max-width: 58.75rem;
+        margin: auto;
+    }
+
+    .piePagina__copyright {
+        padding: 2rem 0;
+    }
+}
+
