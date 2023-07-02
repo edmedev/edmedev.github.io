@@ -101,7 +101,7 @@
 
 .areaTexto__asunto, .areaTexto__mensaje {
     width: 100%;
-    color: var(--preto-50);
+    color: var(--preto-100);
     font-family: var(--raleway);
     font-size: 1rem;
     font-style: normal;
