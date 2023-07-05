@@ -38,7 +38,7 @@
     align-self: stretch;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: left;
 }
 
 .portafolio__imgProyecto--encriptador {
@@ -91,7 +91,14 @@
 }
 
 
-/* Estilos para computadores tablets */
+/* Estilos para telefonos moviles */
+@media screen and (min-width: 481px) {
+    .portafolio__imgProyecto {
+        height: 20rem;
+    }
+}
+
+/* Estilos para tablets en adelante */
 @media screen and (min-width: 768px) {
     .portafolio__imgProyecto {
         width: 44rem;
