@@ -41,8 +41,8 @@
     background-position: left;
 }
 
-.portafolio__imgProyecto--encriptador {
-    background-image: url("../src/img/proyectos/encriptador.png");
+.portafolio__imgProyecto--cifraText {
+    background-image: url("../src/img/proyectos/cifratext.png");
 }
 
 .portafolio__imgProyecto--edmeMovies {
@@ -112,7 +112,7 @@
         gap: 2rem;
     }
     
-    .portafolio__proyecto--encriptador {
+    .portafolio__proyecto--cifraText {
         flex-direction: row;
     }
 
