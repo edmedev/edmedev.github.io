@@ -68,7 +68,7 @@
 
 
 /* Estilos para telefonos moviles en forma vertical y tablet en adelante */
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
     .piePagina__container {
         gap: 4rem;
     }
