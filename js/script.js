@@ -1,45 +1,11 @@
-//Función para hacer clic al menu movil y desplegar el menu de navegación:
-
-var iconoMenu = document.getElementById("icono-menu");
-var menusNavegacion = document.getElementsByClassName("navegacion");
-
-iconoMenu.addEventListener("click", function() {
-  for (var i = 0; i < menusNavegacion.length; i++) {
-    if (menusNavegacion[i].style.display === "none") {
-      menusNavegacion[i].style.display = "block";
-    } else {
-      menusNavegacion[i].style.display = "none";
-    }
-  }
-});
+// Importado los modulos o componentes
+import verRepositorio from "./components/verRepositorio.js";
+import verDemo from "./components/verDemo.js";
+import iconoNavegacion from "./components/iconoMenu.js";
 
 
-//Funciones de botones para ver repositorio de proyectos:
-
-function repositorioEncriptador() {
-  window.open("https://github.com/edmedev/encriptador", "_blank");
-}
-
-function repositorioEdmeMovies() {
-  window.open("https://github.com/edmedev/edme-movies", "_blank");
-}
-
-function repositorioFigurasGeometricas() {
-  window.open("https://github.com/edmedev/figuras-geometricas", "_blank");
-}
-
-
-//Funciones de botones para ver la demo de proyectos:
-
-function demoEncriptador() {
-  window.open("https://edmedev.github.io/encriptador/", "_blank");
-}
-
-function demoEdmeMovies() {
-  window.open("https://edmedev.github.io/edme-movies/", "_blank");
-}
-
-function demoFigurasGeometricas() {
-  window.open("https://edmedev.github.io/figuras-geometricas/", "_blank");
-}
+// Llamando a las funciones importadas
+iconoNavegacion();
+verRepositorio();
+verDemo();
 
