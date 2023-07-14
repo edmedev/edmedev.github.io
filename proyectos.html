@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Lenguaje del sitio: Español -->
+    <head>
+        <!-- metas basicas -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <!-- metas del sitio -->
+        <title>Proyectos | Eduardo Mendez</title>
+        <link rel="icon" type="image/jpg" href="./src/img/foto-eduardo.jpeg"/>
+        <meta name="keywords" content="desarrollador web, frontend developer, web developer">
+        <meta name="description" content="Desarrollador de páginas web a la medida, me inspiro a crear sitios web dinámicos y creativos, adaptables a cualquier dispositivo.">
+        <meta name="author" content="Eduardo Mendez">
+        <!-- Estilos font-family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <!-- Estilos CSS -->
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/presentacion.css">
+        <link rel="stylesheet" href="./css/proyectos.css">
+    </head>
+
+    <body>
+        <!-- Encabezado del sitio web -->
+        <header id="encabezado"></header>
+
+        <main class="main-container">
+            <!-- Sección Llamada a la Acción -->
+            <section class="presentacion">
+                <div class="presentacion__container container">
+                    <div class="presentacion__imagen">
+                        <div class="presentacion__imagenSobreMi presentacion__imagen--proyectos"></div>
+                    </div>
+
+                    <div class="presentacion__contenido">
+                        <h1 class="titulo-principal">Proyectos</h1>
+                        <p class="parrafo-principal">Conoce más de mis proyectos realizados en esta sección.</p>
+                    </div>
+                </div>
+            </section>
+
+           <!-- Sección Experiencia Profesional -->
+           <section class="proyectos" id="proyectos">
+            <div class="proyectos__container container">
+                <h2 class="titulo-secundario">Experiencia profesional</h2>
+                
+                <div class="portafolio">
+                    <div class="portafolio__proyecto portafolio__proyecto--cifraText">
+                        <div class="portafolio__imgProyecto portafolio__imgProyecto--cifraText"></div>
+
+                        <div class="portafolio__contenido">
+                            <h3 class="titulo-terciario">CifraText</h3>
+                            <p class="parrafo">Aplicación para encriptar y desencriptar un mensaje secreto.</p>
+                            <p class="parrafo">Tecnologías aplicadas: HTML, CSS y JavaScript</p>
+                            <div class="botones">
+                                <button class="botones__btnRepo" type="button" id="repo-cifra-text">Repositorio</button>
+                                <button class="botones__btnDemo" type="button" id="demo-cifra-text">Ver demo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portafolio__proyecto portafolio__proyecto--edmeMovies">
+                        <div class="portafolio__imgProyecto portafolio__imgProyecto--edmeMovies"></div>
+
+                        <div class="portafolio__contenido">
+                            <h3 class="titulo-terciario">Edme Movies</h3>
+                            <p class="parrafo">Aplicación que muestra las películas en carteleras, en donde el usuario puede ver la descripción y la calificación o ranking de la película.</p>
+                            <p class="parrafo">Tecnologías aplicadas: HTML, CSS y JavaScript con el consumo de la API THEMOVIEDB.</p>
+                            <div class="botones">
+                                <button class="botones__btnRepo" type="button" id="repo-edme-movies">Repositorio</button>
+                                <button class="botones__btnDemo" type="button" id="demo-edme-movies">Ver demo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portafolio__proyecto portafolio__proyecto--figurasGeometricas">
+                        <div class="portafolio__imgProyecto portafolio__imgProyecto--figurasGeometricas"></div>
+
+                        <div class="portafolio__contenido">
+                            <h3 class="titulo-terciario">Calculadora de Figuras Geométricas</h3>
+                            <p class="parrafo">Aplicación para calcular el perímetro y el área de un cuadrado, un triángulo o un círculo.</p>
+                            <p class="parrafo">Tecnologías aplicadas: HTML, CSS y JavaScript.</p>
+                            <div class="botones">
+                                <button class="botones__btnRepo" type="button" id="repo-fig-geometricas">Repositorio</button>
+                                <button class="botones__btnDemo" type="button" id="demo-fig-geometricas">Ver demo</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+
+        <!-- Pie de página del sitio web -->
+        <footer id="pie"></footer>
+
+
+        <script type="module" src="./js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Lenguaje del sitio: Español -->
+    <head>
+        <!-- metas basicas -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <!-- metas del sitio -->
+        <title>Contacto | Eduardo Mendez</title>
+        <link rel="icon" type="image/jpg" href="./src/img/foto-eduardo.jpeg"/>
+        <meta name="keywords" content="desarrollador web, frontend developer, web developer">
+        <meta name="description" content="Desarrollador de páginas web a la medida, me inspiro a crear sitios web dinámicos y creativos, adaptables a cualquier dispositivo.">
+        <meta name="author" content="Eduardo Mendez">
+        <!-- Estilos font-family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <!-- Estilos CSS -->
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/presentacion.css">
+        <link rel="stylesheet" href="./css/contacto.css">
+    </head>
+
+    <body>
+        <!-- Encabezado del sitio web -->
+        <header id="encabezado"></header>
+
+        <main class="main-container">
+            <!-- Sección Llamada a la Acción -->
+            <section class="presentacion">
+                <div class="presentacion__container container">
+                    <div class="presentacion__imagen">
+                        <div class="presentacion__imagenSobreMi presentacion__imagen--contacto"></div>
+                    </div>
+
+                    <div class="presentacion__contenido">
+                        <h1 class="titulo-principal">Contactame</h1>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Contacto -->
+            <section class="contacto" id="contacto">
+                <div class="contacto__container container">
+                    <div class="contacto__seccionDerecha">
+                        <div class="contacto__informacion">
+                            <h2 class="titulo-secundario">Contacto</h2>
+                            <p class="parrafo-secundario">
+                                ¿Quieres contactarme?
+                                <br>
+                                Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
+                            </p>
+                        </div>
+
+                        <form class="contacto__formulario" action="">
+                            <div class="recuadroTexto">
+                                <label class="recuadroTexto__nombre">Nombre</label>
+                                <input class="recuadroTexto__inputNombre" type="text" name="nombre" placeholder="Escribe tu nombre">
+                            </div>
+
+                            <div class="recuadroTexto areaEmail">
+                                <label class="recuadroTexto__email">E-mail</label>
+                                <input class="recuadroTexto__inputEmail" type="email" name="email" placeholder="Ej: tunombre@mail.com">
+                            </div>
+
+                            <div class="areaTexto">
+                                <input class="areaTexto__asunto" type="text" name="asunto" placeholder="Asunto">
+                            </div>
+
+                            <div class="areaTexto">
+                                <textarea class="areaTexto__mensaje" name="mensaje" rows="5" placeholder="Mensaje"></textarea>
+                            </div>
+
+                            <button class="botonEnviar">Enviar mensaje</button>
+                        </form>
+                    </div>
+
+                    <div class="contacto__seccionIzquierda"></div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Pie de página del sitio web -->
+        <footer id="pie"></footer>
+
+
+        <script type="module" src="./js/script.js"></script>
+    </body>
+</html>

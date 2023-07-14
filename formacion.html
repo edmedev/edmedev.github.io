@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Lenguaje del sitio: Español -->
+    <head>
+        <!-- metas basicas -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <!-- metas del sitio -->
+        <title>Formación | Eduardo Mendez</title>
+        <link rel="icon" type="image/jpg" href="./src/img/foto-eduardo.jpeg"/>
+        <meta name="keywords" content="desarrollador web, frontend developer, web developer">
+        <meta name="description" content="Desarrollador de páginas web a la medida, me inspiro a crear sitios web dinámicos y creativos, adaptables a cualquier dispositivo.">
+        <meta name="author" content="Eduardo Mendez">
+        <!-- Estilos font-family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <!-- Estilos CSS -->
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/presentacion.css">
+        <link rel="stylesheet" href="./css/formacion.css">
+    </head>
+
+    <body>
+        <!-- Encabezado del sitio web -->
+        <header id="encabezado"></header>
+
+        <main class="main-container">
+            <!-- Sección Llamada a la Acción -->
+            <section class="presentacion">
+                <div class="presentacion__container container">
+                    <div class="presentacion__imagen">
+                        <div class="presentacion__imagenSobreMi presentacion__imagen--formacion"></div>
+                    </div>
+
+                    <div class="presentacion__contenido">
+                        <h1 class="titulo-principal">Formación</h1>
+                        <p class="parrafo-principal">Conoce más de mis estudios realizados en esta sección.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Formación Académica -->
+            <section class="formacion" id="formacion">
+                <div class="formacion__container container">
+                    <h2 class="titulo-secundario">Formación académica</h2>
+                    
+                    <div class="bloqueFormacion">
+                        <div class="bloqueFormacion__lista">
+                            <div class="bloqueFormacion__item">
+                                <img src="./src/img/formacion/poligran.png" alt="Logo del Politécnico Grancolombiano" class="bloqueFormacion__item--img">
+                            </div>
+                            <h3 class="titulo-terciario">Tecnólogo en Gestión de Mercadeo</h3>
+                            <p class="parrafo">2021 – Politécnico Grancolombiano</p>
+                        </div>
+
+                        <div class="bloqueFormacion__lista">
+                            <div class="bloqueFormacion__item">
+                                <img src="./src/img/formacion/platzi.jpg" alt="Logo de Platzi" class="bloqueFormacion__item--img">
+                            </div>
+                            <h3 class="titulo-terciario">Formación en Desarrollo Web</h3>
+                            <p class="parrafo">2022 – Platzi</p>
+                        </div>
+
+                        <div class="bloqueFormacion__lista">
+                            <div class="bloqueFormacion__item">
+                                <img src="./src/img/formacion/alura.png" alt="Logo de Alura" class="bloqueFormacion__item--img">
+                            </div>
+                            <h3 class="titulo-terciario">Formación en Desarrollo Web</h3>
+                            <p class="parrafo">En curso – Alura Latam</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Pie de página del sitio web -->
+        <footer id="pie"></footer>
+
+
+        <script type="module" src="./js/script.js"></script>
+    </body>
+</html>
