@@ -6,14 +6,14 @@ function repositorioCifraText() {
         window.open("https://github.com/edmedev/encriptador", "_blank");
     });
 }
-  
+
 function repositorioEdmeMovies() {
     let repoEdmeMovies = document.getElementById("repo-edme-movies");
     repoEdmeMovies.addEventListener("click", function() {
         window.open("https://github.com/edmedev/edme-movies", "_blank");
     });
 }
-  
+
 function repositorioFigurasGeometricas() {
     let repoFigGeometricas = document.getElementById("repo-fig-geometricas");
     repoFigGeometricas.addEventListener("click", function() {
