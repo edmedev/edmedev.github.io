@@ -2,17 +2,19 @@
 
 function iconoNavegacion() {
     const iconoMenu = document.getElementById("icono-menu");
-    const menusNavegacion = document.getElementsByClassName("navegacion");
+    const menuNavegacion = document.getElementsByClassName("navegacion");
 
-    iconoMenu.addEventListener("click", function() {
-        for (let i = 0; i < menusNavegacion.length; i++) {
-            if (menusNavegacion[i].style.display === "none") {
-            menusNavegacion[i].style.display = "block";
+    function toggleMenu() {
+        for (let i = 0; i < menuNavegacion.length; i++) {
+            if (menuNavegacion[i].style.display === "none") {
+                menuNavegacion[i].style.display = "block";
             } else {
-            menusNavegacion[i].style.display = "none";
+                menuNavegacion[i].style.display = "none";
             }
         }
-    });
+    }
+
+    iconoMenu.addEventListener("click", toggleMenu);
 }
 
 export default iconoNavegacion;
