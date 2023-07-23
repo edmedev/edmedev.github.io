@@ -28,5 +28,7 @@ function verDemo() {
     verDemoFigurasGeometricas();
 }
 
+verDemo();
+
 export default verDemo;
 

@@ -25,5 +25,7 @@ function importarTemplates() {
     importarFooter();
 }
 
+importarTemplates();
+
 export default importarTemplates;
 

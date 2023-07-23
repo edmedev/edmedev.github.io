@@ -27,5 +27,7 @@ function verRepositorio() {
     repositorioFigurasGeometricas();
 }
 
+verRepositorio();
+
 export default verRepositorio;
 
