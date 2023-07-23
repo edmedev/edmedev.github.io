@@ -59,7 +59,7 @@
             </section>
 
             <!-- Sección Contacto -->
-            <section class="contacto" id="contacto">
+            <section class="contacto">
                 <div class="contacto__container container">
                     <div class="contacto__seccionDerecha">
                         <div class="contacto__informacion">
@@ -71,26 +71,30 @@
                             </p>
                         </div>
 
-                        <form class="contacto__formulario" action="">
+                        <form class="contacto__formulario" action="https://formsubmit.co/edmedev@yahoo.com" method="POST">
                             <div class="recuadroTexto">
                                 <label class="recuadroTexto__nombre">Nombre</label>
-                                <input class="recuadroTexto__inputNombre" type="text" name="nombre" placeholder="Escribe tu nombre">
+                                <input class="recuadroTexto__inputNombre" type="text" name="nombre" placeholder="Escribe tu nombre" required id="nombre">
+                                <span class="input-message-error"></span>
                             </div>
 
                             <div class="recuadroTexto areaEmail">
                                 <label class="recuadroTexto__email">E-mail</label>
-                                <input class="recuadroTexto__inputEmail" type="email" name="email" placeholder="Ej: tunombre@mail.com">
+                                <input class="recuadroTexto__inputEmail" type="email" name="email" placeholder="Ej: tunombre@mail.com" required id="email">
+                                <span class="input-message-error"></span>
                             </div>
 
                             <div class="areaTexto">
-                                <input class="areaTexto__asunto" type="text" name="asunto" placeholder="Asunto">
+                                <input class="areaTexto__asunto" type="text" name="asunto" placeholder="Asunto" required id="asunto">
+                                <span class="input-message-error"></span>
                             </div>
 
                             <div class="areaTexto">
-                                <textarea class="areaTexto__mensaje" name="mensaje" rows="5" placeholder="Mensaje"></textarea>
+                                <textarea class="areaTexto__mensaje" type="text" name="mensaje" placeholder="Mensaje" rows="5" required id="mensaje"></textarea>
+                                <span class="input-message-error"></span>
                             </div>
 
-                            <button class="botonEnviar">Enviar mensaje</button>
+                            <button type="submit" class="botonEnviar">Enviar mensaje</button>
                         </form>
                     </div>
 
@@ -103,6 +107,6 @@
         <footer id="pie"></footer>
 
 
-        <script type="module" src="./js/script.js"></script>
+        <script src="./js/components/formularioContacto.js"></script>
     </body>
 </html>

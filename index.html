@@ -32,7 +32,7 @@
         <!-- Encabezado del sitio web -->
         <header id="encabezado"></header>
 
-        <main class="main-container" id="home">
+        <main class="main-container">
             <!-- Sección Llamada a la Acción -->
             <section class="presentacion">
                 <div class="presentacion__container container">
@@ -65,7 +65,7 @@
             </section>
 
             <!-- Sección Acerca de Mí -->
-            <section class="sobreMi" id="sobre-mi">
+            <section class="sobreMi">
                 <div class="sobreMi__container container">
                     <h2 class="titulo-secundario">Sobre mí</h2>
                     <p class="parrafo">Mi nombre es Eduardo, nací y crecí en Barranquilla. En el año 2020 salió un programa con Endeavor y la Alcaldía de Barranquilla donde ofrecieron una beca para estudiar desarrollo web en Platzi, en el cual destacaron que era una nueva profesión en la industria de la tecnología que tendría mucha demanda en mercado laboral y me llamo la atención y me inscribí para estudiar.</p>
@@ -74,7 +74,7 @@
             </section>
 
             <!-- Sección Skills -->
-            <section class="skills" id="skills">
+            <section class="skills">
                 <div class="skills__container container">
                     <h2 class="titulo-secundario">Skills</h2>
 
@@ -113,7 +113,7 @@
             </section>
 
             <!-- Sección Hobbies -->
-            <section class="hobbies" id="hobbies">
+            <section class="hobbies">
                 <div class="hobbies__container container">
                     <h2 class="titulo-secundario">Hobbies</h2>
 
@@ -147,7 +147,7 @@
             </section>
 
             <!-- Sección Formación Académica -->
-            <section class="formacion" id="formacion">
+            <section class="formacion">
                 <div class="formacion__container container">
                     <h2 class="titulo-secundario">Formación académica</h2>
                     
@@ -180,7 +180,7 @@
             </section>
 
             <!-- Sección Experiencia Profesional -->
-            <section class="proyectos" id="proyectos">
+            <section class="proyectos">
                 <div class="proyectos__container container">
                     <h2 class="titulo-secundario">Experiencia profesional</h2>
                     
@@ -231,7 +231,7 @@
             </section>
 
             <!-- Sección Contacto -->
-            <section class="contacto" id="contacto">
+            <section class="contacto">
                 <div class="contacto__container container">
                     <div class="contacto__seccionDerecha">
                         <div class="contacto__informacion">
@@ -243,26 +243,30 @@
                             </p>
                         </div>
 
-                        <form class="contacto__formulario" action="">
+                        <form class="contacto__formulario" action="https://formsubmit.co/edmedev@yahoo.com" method="POST">
                             <div class="recuadroTexto">
                                 <label class="recuadroTexto__nombre">Nombre</label>
-                                <input class="recuadroTexto__inputNombre" type="text" name="nombre" placeholder="Escribe tu nombre">
+                                <input class="recuadroTexto__inputNombre" type="text" name="nombre" placeholder="Escribe tu nombre" required id="nombre">
+                                <span class="input-message-error"></span>
                             </div>
 
                             <div class="recuadroTexto areaEmail">
                                 <label class="recuadroTexto__email">E-mail</label>
-                                <input class="recuadroTexto__inputEmail" type="email" name="email" placeholder="Ej: tunombre@mail.com">
+                                <input class="recuadroTexto__inputEmail" type="email" name="email" placeholder="Ej: tunombre@mail.com" required id="email">
+                                <span class="input-message-error"></span>
                             </div>
 
                             <div class="areaTexto">
-                                <input class="areaTexto__asunto" type="text" name="asunto" placeholder="Asunto">
+                                <input class="areaTexto__asunto" type="text" name="asunto" placeholder="Asunto" required id="asunto">
+                                <span class="input-message-error"></span>
                             </div>
 
                             <div class="areaTexto">
-                                <textarea class="areaTexto__mensaje" name="mensaje" rows="5" placeholder="Mensaje"></textarea>
+                                <textarea class="areaTexto__mensaje" type="text" name="mensaje" placeholder="Mensaje" rows="5" required id="mensaje"></textarea>
+                                <span class="input-message-error"></span>
                             </div>
 
-                            <button class="botonEnviar">Enviar mensaje</button>
+                            <button type="submit" class="botonEnviar">Enviar mensaje</button>
                         </form>
                     </div>
 

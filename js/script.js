@@ -2,6 +2,7 @@
 import importarTemplates from "./components/importarTemplates.js";
 import verRepositorio from "./components/verRepositorio.js";
 import verDemo from "./components/verDemo.js";
+import comprobacion from "./components/formularioContacto.js";
 //import iconoNavegacion from "./components/iconoMenu.js";
 
 
@@ -10,4 +11,5 @@ importarTemplates();
 //iconoNavegacion();
 verRepositorio();
 verDemo();
+comprobacion();
 
