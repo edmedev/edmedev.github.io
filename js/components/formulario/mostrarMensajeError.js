@@ -1,4 +1,4 @@
-import {tipoDeErrores, mensajesDeError} from "./mensajesDeError.js"
+import {tipoDeErrores, mensajesDeError} from "./mensajesDeError.js";
 
 function mostrarMensajeDeError(tipoDeInput, input) {
     let mensaje = "";
@@ -11,8 +11,10 @@ function mostrarMensajeDeError(tipoDeInput, input) {
     // Mostrar el mensaje de error cambiando 'display' a 'block' si hay mensaje
     if (mensaje) {
         input.nextElementSibling.style.display = "block";
+        input.nextElementSibling.innerHTML = mensaje;
     } else {
         input.nextElementSibling.style.display = "none";
+        input.nextElementSibling.innerHTML = "";
     }
 
     return mensaje;
