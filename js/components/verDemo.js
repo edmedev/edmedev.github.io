@@ -4,21 +4,21 @@ const botonDemo = document.getElementsByClassName("botones__btnDemo");
 function verDemoCifraText() {
     let demoCifraText = document.getElementById("demo-cifra-text");
     demoCifraText.addEventListener("click", function() {
-        window.open("https://edmedev.github.io/encriptador/", "_blank");
+        window.open("https://cifratext.vercel.app/", "_blank");
     });
 }
 
 function verDemoEdmeMovies() {
     let demoEdmeMovies = document.getElementById("demo-edme-movies");
     demoEdmeMovies.addEventListener("click", function() {
-        window.open("https://edmedev.github.io/edme-movies/", "_blank");
+        window.open("https://edmemovies.netlify.app/", "_blank");
     });
 }
 
 function verDemoFigurasGeometricas() {
     let demoFigGeometricas = document.getElementById("demo-fig-geometricas");
     demoFigGeometricas.addEventListener("click", function() {
-        window.open("https://edmedev.github.io/figuras-geometricas/", "_blank");
+        window.open("https://figurasgeometricas.netlify.app/", "_blank");
     });
 }
 
