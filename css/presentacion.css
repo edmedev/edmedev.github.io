@@ -29,7 +29,7 @@
 }
 
 .presentacion__imagen--sobreMi {
-    background: url(../src/img/foto-eduardo.jpeg) lightgray 50% / cover no-repeat;
+    background: url(../src/img/foto-eduardo.jpg) lightgray 50% / cover no-repeat;
 }
 
 .presentacion__imagen--formacion {
