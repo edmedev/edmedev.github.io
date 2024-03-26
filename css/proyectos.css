@@ -41,6 +41,10 @@
     background-position: left;
 }
 
+.portafolio__imgProyecto--EdmeGeek {
+    background-image: url("../src/img/proyectos/edme_geek.jpeg");
+}
+
 .portafolio__imgProyecto--cifraText {
     background-image: url("../src/img/proyectos/cifratext.png");
 }
@@ -112,16 +116,20 @@
         gap: 2rem;
     }
     
-    .portafolio__proyecto--cifraText {
+    .portafolio__proyecto--EdmeGeek {
         flex-direction: row;
     }
 
-    .portafolio__proyecto--edmeMovies {
+    .portafolio__proyecto--cifraText {
         flex-direction: row-reverse;
     }
 
-    .portafolio__proyecto--figurasGeometricas {
+    .portafolio__proyecto--edmeMovies {
         flex-direction: row;
+    }
+
+    .portafolio__proyecto--figurasGeometricas {
+        flex-direction: row-reverse;
     }
 
     .portafolio__imgProyecto {

@@ -1,5 +1,12 @@
 //Funciones de botones para ver repositorio de proyectos:
 
+function repositorioEdmeGeek() {
+    let repoEdmeGeek = document.getElementById("repo-edme-geek");
+    repoEdmeGeek.addEventListener("click", function() {
+        window.open("https://github.com/edmedev/encriptador/", "_blank");
+    });
+}
+
 function repositorioCifraText() {
     let repoCifraText = document.getElementById("repo-cifra-text");
     repoCifraText.addEventListener("click", function() {
@@ -22,6 +29,7 @@ function repositorioFigurasGeometricas() {
 }
 
 function verRepositorio() {
+    repositorioEdmeGeek();
     repositorioCifraText();
     repositorioEdmeMovies();
     repositorioFigurasGeometricas();
