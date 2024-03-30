@@ -16,9 +16,21 @@
 }
 
 .encabezado__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
     font-size: 1rem;
     font-weight: 700;
     line-height: 18.78px;
+}
+
+.logotipo {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 98px;
+    background: url(../src/iconos/logo_duardomendezdigital.png) lightgray 50% / cover no-repeat;
 }
 
 .navegacion {
@@ -45,12 +57,22 @@
     .encabezado__container {
         padding: 1rem 2rem;
     }
+
+    .logotipo {
+        width: 4.125rem;
+        height: 4.125rem;
+    }
 }
 
 /* Estilos para computadores de escritorio y laptop */
 @media screen and (min-width: 1024px) {
     .encabezado__container {
         padding: 2rem;
+    }
+
+    .logotipo {
+        width: 6.125rem;
+        height: 6.125rem;
     }
 
     .navegacion {

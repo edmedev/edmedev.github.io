@@ -1,8 +1,7 @@
 //Funciones de botones para ver la demo de proyectos:
-const botonDemo = document.getElementsByClassName("botones__btnDemo");
 
 function verDemoEdmeGeek() {
-    let demoEdmeGeek = document.getElementById("repo-edme-geek");
+    let demoEdmeGeek = document.getElementById("demo-edme-geek");
     demoEdmeGeek.addEventListener("click", function() {
         window.open("https://edme-geek.vercel.app/", "_blank");
     });
@@ -22,18 +21,10 @@ function verDemoEdmeMovies() {
     });
 }
 
-function verDemoFigurasGeometricas() {
-    let demoFigGeometricas = document.getElementById("demo-fig-geometricas");
-    demoFigGeometricas.addEventListener("click", function() {
-        window.open("https://figurasgeometricas.netlify.app/", "_blank");
-    });
-}
-
 function verDemo() {
     verDemoEdmeGeek();
     verDemoCifraText();
     verDemoEdmeMovies();
-    verDemoFigurasGeometricas();
 }
 
 verDemo();

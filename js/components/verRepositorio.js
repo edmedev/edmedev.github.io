@@ -21,18 +21,10 @@ function repositorioEdmeMovies() {
     });
 }
 
-function repositorioFigurasGeometricas() {
-    let repoFigGeometricas = document.getElementById("repo-fig-geometricas");
-    repoFigGeometricas.addEventListener("click", function() {
-        window.open("https://github.com/edmedev/figuras-geometricas/", "_blank");
-    });
-}
-
 function verRepositorio() {
     repositorioEdmeGeek();
     repositorioCifraText();
     repositorioEdmeMovies();
-    repositorioFigurasGeometricas();
 }
 
 verRepositorio();

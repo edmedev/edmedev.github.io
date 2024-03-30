@@ -53,10 +53,6 @@
     background-image: url("../src/img/proyectos/edme_movies.png");
 }
 
-.portafolio__imgProyecto--figurasGeometricas {
-    background-image: url("../src/img/proyectos/figuras_geometricas.png");
-}
-
 .portafolio__contenido {
     display: flex;
     flex-direction: column;
