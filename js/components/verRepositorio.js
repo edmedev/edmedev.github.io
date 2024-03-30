@@ -3,7 +3,7 @@
 function repositorioEdmeGeek() {
     let repoEdmeGeek = document.getElementById("repo-edme-geek");
     repoEdmeGeek.addEventListener("click", function() {
-        window.open("https://github.com/edmedev/encriptador/", "_blank");
+        window.open("https://github.com/edmedev/EdmeGeek/", "_blank");
     });
 }
 
